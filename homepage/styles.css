@@ -1,0 +1,95 @@
+/* Nav Bar Styling for all pages*/
+a:hover {
+    background-color: darkblue;
+    text-decoration: underline;
+}
+
+/* Font Styling for all pages */
+body {
+    font-family: 'Verdana', 'Tahoma', sans-serif;
+}
+
+/* Background image for all pages */
+.container-image {
+    background-image: url("backgroundimage.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#containerForIndex {
+    background-color: #ffdbea;
+    /* Margin is space outside of the element */
+    margin-top: 2%;
+    margin-left: 20%;
+    margin-right: 25%;
+    /* Padding is space inside of the element */
+    padding: 5%;
+    width: 60%;
+    text-align: left;
+    /* 1em equals 16px */
+    font-size: 1em;
+}
+
+#containerForEssay {
+    background-color: aliceblue;
+    margin-top: 2%;
+    margin-left: 20%;
+    margin-right: 25%;
+    padding: 2%;
+    width: 60%;
+    text-align: left;
+    font-size: 1em;
+}
+
+#containerForThirdPage {
+    background-color: #f7d4f7;
+    margin-top: 2%;
+    margin-left: 20%;
+    margin-right: 25%;
+    padding: 5%;
+    width: 60%;
+    text-align: center;
+    font-size: 1em;
+}
+
+#containerForAccordion {
+    margin: auto;
+    padding: 2%;
+    width: 65%;
+    text-align: center;
+    font-size: 1em;
+}
+
+/* Make sures that table is centered within the 2nd accordion */
+#itemTwoTable {
+    margin-left: 17%;
+}
+
+/* Table Border Decorations */
+th, td {
+    padding: 10px;
+    border: 5px double #dad6f2;
+}
+
+/* List Styling */
+ul {
+    margin-top: 2%;
+    padding-left: 35%;
+    list-style-position: inside;
+    list-style-type: none;
+    text-align: justify;
+}
+
+/* Bullet Point Styling, replacing regular bullet points */
+li::before {
+    content: "\1F39C";
+    color: slateblue;
+    padding-right: 5px;
+}
+
+/* Spreading out in apperance so it doesn't look cluttered */
+li {
+    padding-bottom: 1px;
+}

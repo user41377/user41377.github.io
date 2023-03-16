@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+        <!-- My CSS -->
+        <link href="styles.css" rel="stylesheet">
+
+        <title>My Webpage | About Me</title>
+    </head>
+    <body class="container-image">
+        <!-- Navigation Bar -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="https://sites.google.com/schools.nyc.gov/nest-m-ap-lang/write-your-new-york" target="_blank" rel="noopener noreferrer">Write My New York</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link" href="index.html">Home</a>
+                        <a class="nav-link" href="essay.html">Essay</a>
+                        <a class="nav-link" href="background.html">Background</a>
+                        <a class="nav-link active" aria-current="page" href="aboutme.html">About Me</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- Accordion System -->
+        <div id="containerForAccordion">
+          <div class="accordion" id="accordionPanelsStayOpenExample">
+            <!-- First Item Box -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                  A Junior's Classes Schedule
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                <div class="accordion-body">
+                  <!-- 1st Item Content -->
+                  <table>
+                    <tr>
+                      <th>Period 1</th>
+                      <th>Period 2</th>
+                      <th>Period 3</th>
+                      <th>Period 4</th>
+                      <th>Period 5</th>
+                      <th>Period 6</th>
+                      <th>Period 8</th>
+                    </tr>
+                    <tr>
+                      <td>Gym (A) or Lab (B)</td>
+                      <td>AP Chemistry</td>
+                      <td>Film Analysis</td>
+                      <td>Pre-Calculus</td>
+                      <td>Computer Science</td>
+                      <td>U.S. History</td>
+                      <td>AP Eng Lang</td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <!-- Second Item Box -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                  Favorite Films/TV Shows
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                <div class="accordion-body">
+                  <!-- 2nd Item Content -->
+                  <table id="itemTwoTable">
+                    <tr>
+                      <th>Films</th>
+                      <th>TV Shows</th>
+                    </tr>
+                    <tr>
+                      <td>Anastasia</td>
+                      <td>Abbott Elmentary</td>
+                    </tr>
+                    <tr>
+                      <td>Bullet Train</td>
+                      <td>La Casa de Papel</td>
+                    </tr>
+                    <tr>
+                      <td>Everything Everywhere All At Once</td>
+                      <td>Taskmaster UK</td>
+                    </tr>
+                    <tr>
+                      <td>Klaus</td>
+                      <td>The Umbrella Academy</td>
+                    </tr>
+                    <tr>
+                      <td>The Emperor's New Grove</td>
+                      <td>Shadow and Bone</td>
+                    </tr>
+                    <tr>
+                      <td>The Menu</td>
+                      <td>The White Lotus</td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <!-- Third Item Box -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                  What I've Been Listening To
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                <!-- 3rd Item Content -->
+                <div class="accordion-body">
+                  <ul>
+                    <li>Waterparks</li>
+                    <li>Aberdeen Is Dead</li>
+                    <li>My Chemical Romance</li>
+                    <li>Pierce The Veil</li>
+                    <li>Melanie Martinez</li>
+                    <li>Selena</li>
+                    <li>Kali Uchis</li>
+                    <li>Gracie Abrams</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </body>
+</html>
